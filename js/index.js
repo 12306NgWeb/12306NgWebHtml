@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 *Email:wfengchzu@gmail.com
 *date:2013-01-15
 */
@@ -13,7 +13,7 @@ $().ready(function(){
 	$(".login_div").css("height",($(window).height()-190));
 
 	
-	/*Êó±êµã»÷Ö®ºó±ä³ÉºÚÉ«£¬Í¬Ê±ÒÆ³ýÏÂ»®Ïß*/
+	/*é¼ æ ‡ç‚¹å‡»ä¹‹åŽå˜æˆé»‘è‰²ï¼ŒåŒæ—¶ç§»é™¤ä¸‹åˆ’çº¿*/
 	$(".header_nav > a").click(function(){
 		$(".header_nav > a").css({
 			"color":"#3388ee",
