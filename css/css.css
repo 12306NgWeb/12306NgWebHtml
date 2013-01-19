@@ -1,4 +1,4 @@
-@charset "utf-8";
+ï»¿@charset "utf-8";
 /* CSS Document */
 
 html,body{ margin:0 0; background:#eeeeee}
@@ -155,7 +155,7 @@ box-shadow: inset 0 1px 2px #f6f6f6;
 .reg_bottom_info{margin-top:50px; height:40px; background:#eeeeee; vertical-align:middle;  margin-bottom:0px;}
 
 
-/* ×¢²áÒ³ÃæµÚ¶ş²½*/
+/* æ³¨å†Œé¡µé¢ç¬¬äºŒæ­¥*/
 .base_info{width:1050px; margin-left:auto; margin-right:auto; margin-top:50px;border:1px solid #EEE;}
 .txt_base{width:100px; text-align:center;display:block; background:#FFF; margin-left:50px; margin-top:-10px;font-family: "Microsoft YaHei" ! important; font-size:14px; color:#c9c9c9; font-weight:bold;}
 .asterisk{color:red}
