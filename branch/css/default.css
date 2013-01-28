@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * 票务窗口模块
+ */
+.ticket-module{width: 750px;margin: 0 auto;}
+.ticket-module .ticket-logo{width:308px;margin:auto;}
+.ticket-module .ticket-logo a{display:block;background: url(../images/12306_logo_big.png) no-repeat;width:308px;height:70px;text-indent: -999em;}
+/*票务快捷导航*/
+.ticket-module .ticket-nav{text-align: center; color: #666; font:bold 14px 'microsoft yahei';margin-top:20px; word-spacing: .8em;}
+.ticket-module .ticket-nav a:link,
+.ticket-module .ticket-nav a:visited{color: #3388ee; text-decoration: underline;}
+.ticket-module .ticket-nav .sign:link,
+.ticket-module .ticket-nav .sign:visited{color: red; text-decoration: none;}
+/*票务查询*/
+.query-box{margin-top:20px;}
+.query-box input{float: left;margin-left:5px;}
+.query-box .text{width:230px;}
+.query-box .date{width:130px;}
+.query-box .btn-submit{width:100px; height:46px; background:url(../images/demand_btn.png) no-repeat;color:#fff;}

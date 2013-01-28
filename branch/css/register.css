@@ -1,0 +1,29 @@
+@charset "utf-8";
+/**
+ * 字段单元集合
+ */
+.fieldset{border:1px solid #eee; padding:40px; position: relative;margin-bottom: 40px;}
+.fieldset .legend{font-size:14px;color: #999;position: absolute;top:-10px;width: 100px;background: #fff;text-align: center;}
+
+/**
+ * 字段单元
+ */
+.field{margin-bottom: 15px;}
+.field .label{float: left;width: 190px; text-align: right; line-height: 46px;font-size: 14px;}
+.field .label span{color: red;}
+.field .input{float: left;width: 340px;margin-left: 20px; min-height: 46px; height: auto!important; height: 46px;}
+.field .text{width: 330px; vertical-align: middle;}
+.field .input p{margin-top: 5px;color: #999;}
+.field .tip{float: left;margin-left: 20px;width: 340px;padding-top: 13px;}
+.field .tip p{line-height: 20px; min-height: 20px;height: auto!important; height: 20px; padding-left: 25px;font-size:14px;}
+.field .tip .correct{background: url(../images/right_icon.png) 0 no-repeat;color: #568200;}
+.field .tip .error{background: url(../images/error_icon.png) 0 no-repeat;color: red;}
+.field .code{width:60px;}
+.field .input img{ vertical-align: middle;}
+.field-mult .input{padding-top:16px;}
+/**
+ * 操作区
+ */
+.operator{text-align: center;}
+/*注册提交按钮*/
+.btn-reg-submit{background:url(../images/reg_submit_btn.png) no-repeat; width:230px; height:46px; cursor: pointer;}

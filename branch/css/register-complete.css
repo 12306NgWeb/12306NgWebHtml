@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.complete-box{width: 320px;margin: auto; padding-left: 70px;}
+.complete-box .complete-content{font-size: 30px;color: #3388ee;}
+.complete-box .redirect{color: #999; font-size: 14px;}
+.complete-box a:link,
+.complete-box a:visited{color: #3388ee;}
+.success{background:url(../images/reg_sucess.png) 0 5px no-repeat;}
