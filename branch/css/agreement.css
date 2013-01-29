@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * 服务条款框
+ */
+.term{border:1px solid #eee;padding:20px;font-size:14px;}
+.term .title{text-align:center;color:#3388ee;font-weight:bold;}
+.term .content{margin-top:20px; line-height: 24px;}
+.term .content p{text-indent: 2em;}
+
+
+.operator{padding: 50px 0 0;}
+.operator .btn-agree{display: block;background:url(../images/agree_register_btn.png) no-repeat;width:230px; height:46px;margin: 0 auto;text-indent: -999em;}

@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/global.css" />
+	<link rel="stylesheet" href="css/query.css" />
+	<title>12306NG Web项目</title>
+</head>
+<body>
+	<!-- 顶部开始 -->
+	<div class="site-top">
+		<div class="site-logo"><a href="">12306NG Web项目</a></div>
+		<div class="site-nav">
+			<a href="">首页</a>
+			<a href="">查询</a>
+			<a href="">购票</a>
+			<a href="">退票</a>
+			<a href="">帮助</a>
+			<a href="">反馈</a>
+		</div>
+		<div class="sign-board"><a href="" class="hi">我的12306</a></div>
+	</div>
+	<!-- 顶部结束 -->
+	<!-- 主体开始 -->
+	<div class="body-skin w1000">
+		<form action="" method="post" target="_blank">
+			<!-- 查询区开始 -->
+			<div class="query-box clr">
+				<input type="text" class="text" size="30" value="出发地">
+				<input type="text" class="text" size="30" value="目的地">
+				<input type="text" class="text date" size="30" value="出发日期">
+				<input type="submit" class="btn btn-submit" value="&nbsp;">
+			</div>
+			<!-- 查询区结束 -->
+			<!-- 筛选区开始 -->
+			<div class="filter clr">
+				<div class="path">
+					<select name="trainNo" id="trainNo">
+						<option value="">北京西→重庆南</option>
+						<option value="">北京西→重庆南</option>
+						<option value="">北京西→重庆南</option>
+					</select>
+					<input type="radio" value="1" id="trainPassType_0" name="trainPassType"> <label for="trainPassType_0">全部</label>
+					<input type="radio" value="2" id="trainPassType_1" name="trainPassType"> <label for="trainPassType_1">始发</label>
+					<input type="radio" value="3" id="trainPassType_2" name="trainPassType"> <label for="trainPassType_2">终到</label>
+					<input type="radio" value="4" id="trainPassType_3" name="trainPassType"> <label for="trainPassType_3">始发终到</label>
+					<input type="radio" value="5" id="trainPassType_4" name="trainPassType"> <label for="trainPassType_4">路过</label>
+				</div>
+				<div class="train">
+					<input type="checkbox" value="1" id="trainClass_0" name="trainClass"> <label for="trainClass_0">全部</label>
+					<input type="checkbox" value="2" id="trainClass_1" name="trainClass"> <label for="trainClass_1">动车</label>
+					<input type="checkbox" value="3" id="trainClass_2" name="trainClass"> <label for="trainClass_2">直特</label>
+					<input type="checkbox" value="4" id="trainClass_3" name="trainClass"> <label for="trainClass_3">特快</label>
+					<input type="checkbox" value="5" id="trainClass_4" name="trainClass"> <label for="trainClass_4">快速</label>
+					<input type="checkbox" value="6" id="trainClass_5" name="trainClass"> <label for="trainClass_5">普快</label>
+					<input type="checkbox" value="7" id="trainClass_6" name="trainClass"> <label for="trainClass_6">普客</label>
+					<input type="checkbox" value="8" id="trainClass_7" name="trainClass"> <label for="trainClass_7">临客</label>
+				</div>
+			</div>
+			<!-- 筛选区结束 -->
+		</form>
+
+		<!-- 数据表格 -->
+		<div class="data-grid">
+			<table class="data-head">
+				<colgroup>
+					<col width="40" />
+					<col width="160" />
+					<col width="60"/>
+					<col width="60"/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+					<col/>
+				</colgroup>
+				<thead>
+					<tr>
+						<th rowspan="2">序号</th>
+						<th rowspan="2">车次</th>
+						<th colspan="2" class="cols">查询区间</th>
+						<th colspan="3" class="cols">区间运行时刻</th>
+						<th colspan="10" class="cols">余票信息</th>
+						<th>列车信息</th>
+					</tr>
+					<tr>
+						<th>发站</th>
+						<th>到站</th>
+						<th>发时</th>
+						<th>到时</th>
+						<th>历时</th>
+						<th>商务座</th>
+						<th>特等座</th>
+						<th>一等座</th>
+						<th>二等座</th>
+						<th>高级软卧</th>
+						<th>软卧</th>
+						<th>硬卧</th>
+						<th>软座</th>
+						<th>硬座</th>
+						<th>无座</th>
+						<th>等级</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr class="alt">
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr class="alt">
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr class="alt">
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr class="alt">
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr class="alt">
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+					<tr class="alt">
+						<td>1</td>
+						<td>G101(北京南→上海虹桥)</td>
+						<td>北京南</td>
+						<td>上海虹桥</td>
+						<td>7:00</td>
+						<td>12:23</td>
+						<td>5:23</td>
+						<td>20</td>
+						<td>--</td>
+						<td>有</td>
+						<td>有</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>--</td>
+						<td>动车</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="status-bar">
+				<p>*余票信息每10分钟更新一次，"--"代表无此席别，"0"代表票已售完</p>
+				<p>*鼠标滑过，提示具体信息</p>
+			</div>
+		</div>
+		<!-- 数据表格结束 -->
+	</div>
+	<!-- 主体结束 -->
+	<!-- 底部开始 -->
+	<div class="footer">
+		<div class="footer-logo"><a href="">12306NG</a></div>
+		<div class="footer-nav">
+			<a href="">新手上路</a> | 
+			<a href="">常见问题</a> | 
+			<a href="">意见反馈</a> | 
+			<a href="">关于12306NG</a> | 
+			<a href="">团队成员</a> | 
+			<a href="">联系我们</a>
+	  </div>
+	</div>
+	<!-- 底部结束 -->
+</body>
+</html>

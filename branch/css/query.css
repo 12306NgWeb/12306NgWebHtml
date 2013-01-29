@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**
+ * 票务查询
+ */
+.query-box{margin-top:20px;}
+.query-box input{float: left;margin-right:5px;}
+.query-box .text{width:230px;}
+.query-box .date{width:130px;}
+.query-box .btn-submit{width:100px; height:46px; background:url(../images/demand_btn.png) no-repeat;color:#fff;}
+/**
+ * 筛选器
+ */
+.filter{margin-top: 20px;}
+.filter .path{float: left;}
+.filter .path select{width:200px;}
+.filter .train{float: right;}
+/**
+ * 数据表格
+ */
+.data-grid{padding:20px 0;}
+.data-grid table{width: 100%;border-top: 1px solid #ddd; border-left: 1px solid #ddd;}
+.data-grid td,.data-grid th{padding:8px 5px; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd;}
+.data-grid th.cols{text-align: center;}
+.data-grid thead{background:#eee url(../images/table_th.png) top repeat-x;}
+.data-grid .alt td{background: #ecf5ff;}
+.data-grid .status-bar{color: red;margin-top: 10px;}
