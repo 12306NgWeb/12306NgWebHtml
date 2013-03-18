@@ -28,21 +28,13 @@
     <!--search start-->
 	<div class="ticketsearch">
     	<div class="searchdates">
-            <input type="text" placeholder="出发地" name="startAdd" class="inputtxt" />
-            <input type="text" placeholder="目的地" name="endAdd" class="inputtxt inputerror" id="inputerror" />
+            <input type="text" placeholder="出发地" name="startAdd" class="inputtxt" readonly id="startAddress"/>
+            <input type="text" placeholder="目的地" name="endAdd" class="inputtxt" readonly id="endAddress" />
             <input type="text" placeholder="出发日期" name="startDate" class="inputdate"  onClick="WdatePicker()"/>
             <input type="submit" value="查询" name="search" class="btnsearch f16" />
         </div> 
         <div class="searchdates">
             <ul>
-            	<li><select>
-                    <option>G7428(杭州→上海虹桥)</option>
-                    <option>G7428(杭州→上海虹桥)</option>
-                    <option>G7428(杭州→上海虹桥)</option>
-                    <option>G7428(杭州→上海虹桥)</option>
-                    <option>G7428(杭州→上海虹桥)</option>
-                    <option>G7428(杭州→上海虹桥)</option>
-                </select></li>
             	<li><input type="radio" name="traintypes" class="radiotype" checked="checked" id="t-all"/><label for="t-all">全部</label></li>
                 <li><input type="radio" name="traintypes" class="radiotype" id="t-start"/><label for="t-start">始发</label></li>
                 <li><input type="radio" name="traintypes" class="radiotype" id="t-end"/><label for="t-end">终到</label></li>
@@ -58,7 +50,11 @@
                 <li><input type="checkbox" name="traintypes" class="checkboxtype" id="t-K2" /><label for="t-K2">普客</label></li>
                 <li><input type="checkbox" name="traintypes" class="checkboxtype" id="t-L" /><label for="t-L">临客(L,A)</label></li>
             </ul>
+            <p class="pb5 red">改签车票时，不能更改出发地、目的地、票种和身份信息。</p>
         </div> 
+        
+        <p class="pb5">出发日期：<span class="blue mr10">2013-01-01</span><span class="blue mr10">杭州→上海虹桥</span>共<span class="blue">（9）</span>次列车</p>
+        
         <table border="1" bordercolor="#ddd" cellspacing="0" cellpadding="0" style="border-collapse:collapse" class="alltrains">
             <tr>
                 <th rowspan="2" width="15%">车次</th>
@@ -96,7 +92,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -113,7 +109,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>  
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -130,7 +126,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>  
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -147,7 +143,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>  
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -164,7 +160,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>  
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -181,7 +177,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>  
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -198,7 +194,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>  
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -215,7 +211,7 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>  
             <tr>
                 <td>G7428(杭州→上海虹桥)</td>
@@ -232,10 +228,10 @@
                 <td>-</td>
                 <td>-</td>
                 <td>有</td>
-                <td><a href="bookticket.html" class="blue">[预定]</a></td>
+                <td><a href="changeticket.html" class="blue">[改签]</a></td>
             </tr>            
         </table>
-        <p class="lightgray pt20">*余票每十分钟更新一次，“-”表示无此席别，“0”表示已售完</p>
+        <p class="lightgray pt20">*余票每十分钟更新一次，“有”表示票源充足，“-”表示无此席别，“0”表示已售完</p>
         <p class="lightgray pt5" >*鼠标移到任何信息，即可放大现实</p>
         <p class="lightgray pt5">*本功能及查询结果仅作为参考，准确信息以车站公告为准</p>
     </div>
@@ -283,14 +279,13 @@
 <script>
   function infoshow() {
 	  $("#submitconfirm").fadeIn();
-	  $("#txtemail").focus();
 	  $("#bgcolor").show();
   }
   function infoIndden() {
 	  $("#submitconfirm").fadeOut();
 	  $("#bgcolor").hide();
   }
-   $(".checkboxtype, .radiotype").customInput();
+  $(".checkboxtype, .radiotype").customInput();
 </script>
 </body>
 </html>
