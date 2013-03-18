@@ -14,7 +14,7 @@
     <div class="ng-menu">
     	<span>查询</span>
         <span class="blue"><a href="bookticket.html">购票</a></span>
-        <span class="blue"><a href="">退票</a></span>
+        <span class="blue"><a href="returnticket.html">退票</a></span>
         <span class="blue"><a href="help.html">帮助</a></span>
         <span class="blue"><a href="feedback.html">反馈</a></span>
         <span>|</span>
@@ -24,8 +24,8 @@
     <div class="ng-indexSearch">
     	<input type="text" placeholder="出发地" name="startAdd" class="inputtxt" />
         <input type="text" placeholder="目的地" name="endAdd" class="inputtxt" />
-        <input type="text" placeholder="出发日期" name="startDate" class="inputdate" />
-        <input type="submit" value="查询" name="search" class="btnsearch f16" />
+        <input type="text" placeholder="出发日期" name="startDate" class="inputdate" onClick="WdatePicker()" />
+        <a href="search.html"><input type="submit" value="查询" name="search" class="btnsearch f16" /></a>
     </div>    
 </div>
 <div class="bottom">
@@ -39,6 +39,6 @@
         <a href="">联系我们</a>
     </span>
 </div>
-
+<script src="../js/DatePicker/WdatePicker.js" ></script>
 </body>
 </html>
