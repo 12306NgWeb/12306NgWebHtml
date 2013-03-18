@@ -9,15 +9,15 @@
 .ng-menu .blue a{ color: #38e;}
 .ng-menu .red a{ color: #f44; text-decoration: none;}
 
-.ng-indexSearch{ margin: 0 auto 250px auto; padding: 10px 0; width:740px;}
+.ng-indexSearch{ margin: 0 auto 260px auto; padding: 10px 0; width:760px;}
 .ng-indexSearch input{ vertical-align:middle;}
-.inputtxt , .inputcode, .inputdate ,.goreg{ height:43px; line-height: 43px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.inputtxt , .inputcode, .inputdate ,.goreg{ height:38px; line-height: 38px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 .inputtxt{ width: 230px;}
 .inputdate{ width: 160px;}
 .inputcode{ width: 150px;}
-.btnsearch{ width: 100px; height: 45px; line-height: 45px; color: #fff; background: #f44; border: none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;}
+.btnsearch{ width: 100px; height: 40px; line-height: 40px; color: #fff; background: #f44; border: none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;}
 
-.bottom{ clear:both; position: fixed; bottom: 0; margin: 0 auto; padding: 0; width: 100%; height: 40px; line-height: 40px; background: #eee; border-top: 1px solid #ddd;}
+.bottom{ clear:both; margin: 0 auto; padding: 0; width: 100%; height: 40px; line-height: 40px; background: #eee; border-top: 1px solid #ddd;}
 .bottom img{ float: left;}
 .bottom span{ float: right; padding-right: 5px; line-height: 40px;}
 .bottom span a{ display: inline-block; margin-right: 5px; color: #333; text-decoration: none;}
@@ -46,7 +46,7 @@
 
 .userinfors{ margin: 75px auto 15px auto; padding: 30px 39px; border: 1px solid #ddd;}
 .userinfors legend{ padding: 0 10px;}
-.inputname,.inputcode{ height:40px; line-height: 40px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.inputname,.inputcode{ height:38px; line-height: 38px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 .inputname{ width: 300px;}
 .userinfors ul{ margin: 0; padding: 0;}
 .userinfors ul li{ margin: 5px 0;}
@@ -65,9 +65,9 @@
 
 /*login*/
 .userlogin{ width: 1000px;}
-.btnlogin, .btnreg,.btncode, .btnhelp{ height: 42px; line-height: 40px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
-.btnlogin{ width: 150px; margin-bottom: 50px; background: #38e; color: #fff; border: none;}
-.btnreg{ width: 150px; margin-bottom: 50px; background: #f0f0f0; border: none;}
+.btnlogin, .btnreg,.btncode, .btnhelp{ height: 38px; line-height: 38px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.btnlogin{ width: 150px; margin-bottom: 50px; background: #38e; color: #fff; }
+.btnreg{ width: 150px; margin-bottom: 50px; background: #f0f0f0; }
 
 /*find password*/
 .findpwd{ width: 1000px;}
@@ -85,9 +85,10 @@
 .usersearch{ padding-bottom:40px; border-bottom: 1px dashed #ddd;}
 .userhelp a{ margin: 0 5px; text-decoration: none; }
 .userhelp .helplist{ margin: 0; padding: 10px 0;}
-.helplist li{ line-height: 30px; margin: 5px 0; padding:0;}
-.userhelp .helplist li p{ margin: 0; padding: 0;}
-
+.userhelp .helplist li{ line-height: 30px; margin: 5px 0; padding:0;}
+.userhelp .helplist li a{ color: #333;}
+.helpfaq p{ text-indent:2em;}
+.helpfaq a{ color: #999;}
 /*my order*/
 .myorder{ clear: both; overflow: hidden; margin: 75px auto 45px auto; padding: 0; width:1000px; border: 1px solid #ddd;}
 .position{ clear:both; height:38px; line-height:38px; text-indent:50px; background:url(../images/line.png) repeat-x; border-bottom: 1px solid #ddd;}
@@ -126,6 +127,12 @@
 .btnmodify{ padding-top:30px; margin: 20px auto; border-top: 1px dashed #ddd;}
 .myinfos select{ width: 150px;}
 .modifytxt{ width: 450px; height:28px; line-height: 28px; border: 1px solid #ddd;; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.textname{ width: 250px; height:28px; line-height: 28px; border: 1px solid #ddd;; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+
+
+/*add contact*/
+.radiosex{ width:auto; margin:0 5px;}
+.topline{ border-top: 1px dashed #ddd;}
 
 /*book ticket*/
 .bookorder{ clear: both; overflow: hidden; margin: 45px auto; padding: 0; width:1000px;}
@@ -136,7 +143,13 @@
 .traininfos em{ color: #333;}
 
 .travelinfo{ overflow:hidden; margin: 20px auto; width: 100%; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;}
-.travelinfo .tableheader, .travelinfo .tableheader:hover{ height:32px; line-height: 34px; background:url(../images/line.png) repeat-x; border-bottom: 1px solid #ddd;}
+.travelinfo .tableheader, .travelinfo .tableheader:hover{ height:32px; line-height: 34px;
+ /*background:url(../images/line.png) repeat-x; */
+filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#fefefe',endColorStr='#f1f1f1',gradientType='0'); 
+background: -moz-linear-gradient(top, #fefefe, #f1f1f1); 
+background: -o-linear-gradient(top,#FF0000, #F9F900); 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#f1f1f1));
+border-bottom: 1px solid #ddd;} 
 .travelinfo td{ height: 40px; line-height: 40px;}
 .travelinfo tr:hover{ background: #def;}
 .torder, .tdo{ width: 10%; text-align: center;}
@@ -172,9 +185,9 @@
 .tickettotle{ padding: 10px; margin: 0 auto; background: #ffe; border: 1px solid #ffce09; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;}
 .tickettotle strong{ font-weight: bold;}
 
-.btnaddticket ,.btnresetticket{ width: 160px; height: 50px; line-height: 50px; border: none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.btnaddticket ,.btnresetticket{ width: 160px; height: 40px; line-height: 40px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 .btnaddticket{ background: #38e; color: #fff;}
-.btnresetticket{ background: #fafafa; border: 1px solid #ddd;}
+.btnresetticket{ background: #fafafa; }
 
 /*confirm*/
 .bgcolor{ display:none; filter:alpha(opacity=30); -moz-opacity:0.3;opacity:0.3; background-color:#000; width:100%; height:100%; position:fixed; _position:absolute; left:0; top:0; z-index:1000;}
@@ -184,7 +197,7 @@ background: -moz-linear-gradient(top, #f3f3f3, #ffffff);
 background: -o-linear-gradient(top,#f3f3f3, #ffffff); 
 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f3f3f3), to(#ffffff));  }
 .confirmation h1{  font-size:25px; }
-.submitconfirm h1{ padding: 10px 0; border-bottom: 1px solid #ddd;}
+.submitconfirm h1{ padding: 10px 0; border-bottom: 1px solid #ddd; font-size: 16px;}
 .submitconfirm p{ padding:2px 10px;}
 .submitconfirm ul{  margin:0 ; padding: 10px; border-top: 1px dashed #ddd; border-bottom: 1px dashed #ddd; }
 .submitconfirm li{ line-height:20px; margin:5px 0;}
@@ -240,18 +253,45 @@ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f3f3f3), to(#ffffff))
 .singleselect{ width: 120px; height:26px; line-height: 26px; }
 
 /*ticket search*/
-.ticketsearch{ margin: 75px auto 25px auto; padding: 0 20px; }
+.ticketsearch{ margin: 75px auto 25px auto; padding: 0 10px; }
 .searchdatess{ margin: 10px auto; overflow: hidden; line-height: 40px;}
 .searchdates input{ vertical-align: middle;}
 .searchdates .inputtxt, .searchdates .inputdate{ width: 230px; height: 38px; line-height: 38px;}
 .searchdates .btnsearch{ width: 100px; height: 40px; line-height: 40px;}
 
-.searchdates ul{ clear: both; padding: 10px 0; overflow: hidden; }
+.searchdates ul{ clear: both; padding: 10px 0 5px 0; overflow: hidden; }
 .searchdates ul li{ float: left; margin-right: 10px;}
-.searchdates label, .searchdates input, .searchdates select{ vertical-align: middle;}
+.searchdates label, .searchdates input, .searchdates select{ vertical-align: top;}
 .searchdates input{ margin-right: 5px;}
 
 .alltrains{ width: 100%; text-align: center; border: 1px solid #ddd; line-height: 30px;}
-.alltrains .startstation{ width: 5%; }
-.alltrains .orderstation{ width: 5%; }
+.alltrains .searchinterval{ width: 12%; }
+.alltrains .voteremaining{ width: 5%; }
+.alltrains .voteaction{ width: 4%;}
 .alltrains th{ text-align: center;}
+.alltrains a{ text-decoration:none;}
+
+/*return ticket*/
+.returnticket{ padding: 20px 39px; margin: 0 auto;}
+
+/*checkbox radio css*/
+.custom-checkbox,.custom-radio { position:relative; }
+.custom-checkbox input {position: absolute;left: 2px;top: 2px;margin: 0;z-index: -1;}
+.custom-checkbox label {display: block;position: relative;z-index: 1; height: 15px; line-height: 1;padding: 1px 0 0 20px;cursor: pointer;}
+.custom-radio input {position: absolute;left: 0px;top: 0px;margin: 0;z-index: -1;vertical-align:middle;}
+.custom-radio label {display: block;position: relative;z-index: 1;line-height: 1;padding: 0 0 0 20px;cursor: pointer;height:15px;vertical-align:middle;}
+.custom-checkbox label, .custom-radio label { background:url(../images/checkbox.png) no-repeat;}
+.custom-checkbox label{background-position: 0 0;}
+.custom-radio label {background-position: 0 -32px;}
+.custom-checkbox label.checked{background-position: 0 -15px;}
+.custom-radio label.checked {background-position: 0 -48px; }
+
+
+.select_box {width:70px; position:relative; margin:10px 0;padding:0; font-size:12px; z-index: 99;}
+.select_box input {cursor:pointer; display:block; line-height:26px; width:100%; height:26px; overflow:hidden;border:1px solid #ccc; background:url(../images/select.png) no-repeat 50px center; font-size:12px;}
+.select_box ul {width:70px; position:absolute; left:0; top:26px; border:1px solid #ccc; background:#fff; overflow: hidden;display:none; background:#ebebeb; z-index:99999;}
+.select_box ul li {display:block;height:30px;overflow:hidden;line-height:30px;padding-left:5px;width:100%;cursor:pointer;}
+.hover {background:#ccc;}
+
+.icard .select_box input, .icard .select_box ul{ width: 100px;}
+.icard .select_box input{ background:url(../images/select.png) no-repeat 75px center;}
