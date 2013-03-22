@@ -274,6 +274,23 @@ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f3f3f3), to(#ffffff))
 /*return ticket*/
 .returnticket{ padding: 20px 39px; margin: 0 auto;}
 
+/*chgange train*/
+.changetrin{ line-height: 25px;}
+.changetrin td{ line-height: 25px;}
+.ctname{ width: 8%; text-align: center;}
+.ctcard{ width: 8%; text-align: center;}
+.ctID{ width: 15%; text-align: center;}
+.ctdate{ width: 8%; text-align: center;}
+.ctadds{ width: 10%; text-align: center;}
+.ctadde{ width: 10%; text-align: center;}
+.cttype{ width: 5%; text-align: center;}
+.ctorder{ width: 5%; text-align: center;}
+.ctsate{ width: 5%; text-align: center;}
+.cttrain{ width: 5%; text-align: center;}
+.ctnum{ width: 10%; text-align: center;}
+.ctprice{ width: 5%; text-align: center;}
+
+
 /*checkbox radio css*/
 .custom-checkbox,.custom-radio { position:relative; }
 .custom-checkbox input {position: absolute;left: 2px;top: 2px;margin: 0;z-index: -1;}
