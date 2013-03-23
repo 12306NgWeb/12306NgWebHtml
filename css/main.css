@@ -11,7 +11,7 @@
 
 .ng-indexSearch{ margin: 0 auto 260px auto; padding: 10px 0; width:760px;}
 .ng-indexSearch input{ vertical-align:middle;}
-.inputtxt , .inputcode, .inputdate ,.goreg{ height:38px; line-height: 38px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.inputtxt , .inputcode, .inputdate ,.goreg{ height:40px; line-height: 40px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 .inputtxt{ width: 230px;}
 .inputdate{ width: 160px;}
 .inputcode{ width: 150px;}
@@ -28,7 +28,7 @@
 .header img{ float: left; padding-left: 10px;}
 .headermenu{ margin-left: 15px;}
 .headermenu a{ display:inline-block; padding: 0 15px; text-decoration: none; color: #333;}
-.headerlogin{ margin:11px 20px;; width: 90px; height: 28px; line-height: 28px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; background: #f44; text-align:center;}
+.headerlogin{ margin:11px 20px;; width: 90px; height: 30px; line-height: 28px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; background: #f44; text-align:center;}
 .headerlogin a{ margin: 0 5px; text-align: center; text-decoration: none; color: #fff}
 
 #myshow{ position: absolute; top: 38px; right: 20px; width: 88px; background: #fff; border: 1px solid #f44;}
@@ -65,7 +65,7 @@
 
 /*login*/
 .userlogin{ width: 1000px;}
-.btnlogin, .btnreg,.btncode, .btnhelp{ height: 38px; line-height: 38px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.btnlogin, .btnreg,.btncode, .btnhelp{ height: 40px; line-height: 40px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 .btnlogin{ width: 150px; margin-bottom: 50px; background: #38e; color: #fff; }
 .btnreg{ width: 150px; margin-bottom: 50px; background: #f0f0f0; }
 
@@ -176,7 +176,7 @@ border-bottom: 1px solid #ddd;}
 .contactphone{ width: 120px; height:28px; line-height: 28px; }
 .iuse input[type=checkbox]{ margin-right: 5px;}
 
-.btnadduser{ width: 100px; height: 28px; line-height: 28px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.btnadduser{ width: 100px; height: 30px; line-height: 30px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 
 .describinfos{ padding: 10px; margin: 10px auto; border-top: 1px dashed #ddd;}
 .describinfos p{ line-height: 25px;}
@@ -211,7 +211,7 @@ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f3f3f3), to(#ffffff))
 .btnsubmit, .btncancel, .btnsinglesearch{  border: none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 .btnsubmit{ width: 120px; height: 40px; line-height: 40px; background: #38e; color: #fff; }
 .btncancel{ width: 120px; height: 40px; line-height: 40px; background: #fafafa; border: 1px solid #ddd;}
-.btnsinglesearch{ width: 90px; height: 28px; line-height: 28px; background: #38e; color: #fff; }
+.btnsinglesearch{ width: 90px; height: 30px; line-height: 30px; background: #38e; color: #fff; }
 /**/
 .ordersuccess{ padding: 10px 20px; line-height: 25px;}
 .ordersuccess em{ margin: 0 5px; color: #f44; }
@@ -244,7 +244,7 @@ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f3f3f3), to(#ffffff))
 .ticketout td{padding:10px; text-align:center;}
 .ticketout tr:hover{ background: #fafafa;}
 .ticketout a{ text-decoration: none;}
-.btnpay, .btnpaycancel, .btnpaychange{ width: 90px; height: 28px; line-height: 28px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.btnpay, .btnpaycancel, .btnpaychange{ width: 90px; height: 30px; line-height: 28px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
 .btnpay{ border: none; background: #38e; color: #fff;}
 .btnpaycancel, .btnpaychange{ background: #fafafa; border: 1px solid #ddd;}
 .tips{ margin-top: 20px; padding: 10px; border-top: 1px dashed #ddd; }
