@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*order*/
 .ordercons{ position:relative; margin: 5px auto; line-height:30px; }
 .otitle{ display: inline-block; position:absolute; left: 0; top: 0; width: 100px; height:35px;  }
